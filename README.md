@@ -1,4 +1,4 @@
-Herbert Schildt's Little C Interpreter Modified paco secades
+Herbert Schildt's Little C Interpreter Modified by paco secades
 
 Adds support for C++ comments
 
