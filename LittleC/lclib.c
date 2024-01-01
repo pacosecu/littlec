@@ -98,13 +98,14 @@ int print(void)
 /* Read an integer from the keyboard. */
 int getnum(void)
 {
-	char s[80];
+  char s[80];
 	
   gets(s);
-	while(*prog!=')') prog++;
-		prog++;  /* advance to end of line */
-	}
-	return atoi(s);
+  while(*prog!=')') prog++;
+    prog++;  /* advance to end of line */
+  }
+  return atoi(s);
 }
+
 
 
